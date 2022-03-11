@@ -1,0 +1,25 @@
+h1{
+
+    color: darkblue;
+    text-align: center;
+}
+
+a{
+    display:block;
+    display: table;
+    position: relative;
+    margin: auto;
+    width: 10%;
+    text-align: center;
+    color: rgb(41, 48, 54);
+}
+.home{
+    display: inline;
+    white-space: nowrap;
+    
+}
+#baidu{
+    color: brown;
+    height: 30px;
+    border-radius: 5px;
+}
