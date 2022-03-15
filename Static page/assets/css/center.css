@@ -1,17 +1,41 @@
+body{
+    width: 1955;
+    height: 1620;
+    overflow: hidden;
+}
+
 h1{
 
     color: darkblue;
     text-align: center;
+    font-family:华文行楷;
+}
+h2{
+    font-family: 华文彩云;
 }
 
-a{
+div a{
     display:block;
     display: table;
     position: relative;
     margin: auto;
-    width: 10%;
+    width: 12%;
     text-align: center;
     color: rgb(41, 48, 54);
+    text-decoration: deepskyblue;
+    border-width: 10;
+    border-color: rgb(243, 238, 238);
+    border-style:inset;
+    font-size: 20px;
+    font-family: 楷体;
+}
+/* 鼠标悬浮颜色 */
+a:hover{
+    color: gold;
+}
+/* 鼠标按住颜色 */
+a:active{
+    color: rgba(8, 238, 8, 0.493);
 }
 .home{
     display: inline;
@@ -21,5 +45,13 @@ a{
 #baidu{
     color: brown;
     height: 30px;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+.content {
+    color: #ffffff;
+    font-size: 40px;
+}
+#nav{
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
