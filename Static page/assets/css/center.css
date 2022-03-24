@@ -1,7 +1,5 @@
 body{
-    width: 1955;
-    height: 1620;
-    overflow: hidden;
+   margin: 0; padding: 0;
 }
 
 h1{
@@ -19,14 +17,20 @@ div a{
     display: table;
     position: relative;
     margin: auto;
-    width: 12%;
+    width: 20%;
+    height: 3%;
     text-align: center;
-    color: rgb(41, 48, 54);
+    font-family: bold;;
+    color:black;
     text-decoration: deepskyblue;
-    border-width: 10;
+    font-weight:bold;
+    border-width: 5px;
+    border-color: peachpuff;
     border-color: rgb(243, 238, 238);
-    border-style:inset;
+    border-style:ridge;
+    background-color: rgba(117, 61, 35, 0.021);
     font-size: 20px;
+    border-radius: 20px;
     font-family: 楷体;
 }
 /* 鼠标悬浮颜色 */
@@ -35,7 +39,7 @@ a:hover{
 }
 /* 鼠标按住颜色 */
 a:active{
-    color: rgba(8, 238, 8, 0.493);
+    color: rgba(8, 81, 238, 0.493);
 }
 .home{
     display: inline;
@@ -51,7 +55,45 @@ a:active{
     color: #ffffff;
     font-size: 40px;
 }
-#nav{
+/* .bd{
+    border: 1px solid rgba(231, 171, 171, 0.747);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
+    float: inline-start;
+} */
+/* 居中控件 */
+.bk{
+    display:inline-block;
+    display: table;
+    position: relative;
+    margin: auto;
+    width: 50%;
+    border: 5px solid;
+    display: grid;
+    position: relative;
+    text-align: end;
+    margin-top: 90px;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+}
+.nav{
+    display: inline-block;
+    display: grid;
+    border: 5px solid;
+    border-radius: 35px;
+    position: relative;
+    margin: auto;
+    width: 155px;
+    background-color: bisque;
+    position:absolute;
+    top: 90px;
+
+}
+.nav span{
+    text-align: center;
+}
+#riqi{
+    position: relative;
+    right: -10%;
+    
 }
